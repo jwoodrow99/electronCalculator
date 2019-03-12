@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="./asset/lib/reset.css">
+        <link rel="stylesheet" href="./style.css">
+        <title>Electron Calculator</title>
+    </head>
+    <body>
+        <input type="text" name="calcWindow" value="0" id="calcWindow">
+
+        <!-- Number -->
+        <button type="button" onclick="number('0')" id="num0">0</button>
+        <button type="button" onclick="number('1')" id="num1">1</button>
+        <button type="button" onclick="number('2')" id="num2">2</button>
+        <button type="button" onclick="number('3')" id="num3">3</button>
+        <button type="button" onclick="number('4')" id="num4">4</button>
+        <button type="button" onclick="number('5')" id="num5">5</button>
+        <button type="button" onclick="number('6')" id="num6">6</button>
+        <button type="button" onclick="number('7')" id="num7">7</button>
+        <button type="button" onclick="number('8')" id="num8">8</button>
+        <button type="button" onclick="number('9')" id="num9">9</button>
+
+        <!-- Fcn -->
+        <button type="button" onclick="clear()" id="clr">C</button>
+        <button type="button" onclick="funny()" id="fun">???</button>
+
+        <!-- Opperations -->
+        <button type="button" onclick="opperation('+')" id="oppPlus">+</button>
+        <button type="button" onclick="opperation('-')" id="oppMinus">-</button>
+        <button type="button" onclick="opperation('*')" id="oppTimes">*</button>
+        <button type="button" onclick="opperation('/')" id="oppDivide">/</button>
+        <button type="button" onclick="eql()" id="eql">=</button>
+
+    </body>
+</html>

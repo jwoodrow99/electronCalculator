@@ -1,0 +1,94 @@
+body{
+    display: grid;
+
+    grid-template-areas:
+    'display display display display'
+    'clear clear mystery divide'
+    'num7 num8 num9 multiply'
+    'num4 num5 num6 subtract'
+    'num1 num2 num3 addition'
+    'num0 num0 equal equal';
+    grid-template-rows: 50px 50px 50px 50px 50px 50px;
+    grid-template-columns: 50px 50px 50px 50px;
+    grid-row-gap: 10px;
+    grid-column-gap: 30px;
+
+    padding: 10px;
+}
+
+/* Calc window */
+#calcWindow{
+    grid-area: display;
+}
+
+/* number buttons */
+#num0{
+    grid-area: num0;
+}
+
+#num1{
+    grid-area: num1;
+}
+
+#num2{
+    grid-area: num2;
+}
+
+#num3{
+    grid-area: num3;
+}
+
+#num4{
+    grid-area: num4;
+}
+
+#num5{
+    grid-area: num5;
+}
+
+#num6{
+    grid-area: num6;
+}
+
+#num7{
+    grid-area: num7;
+}
+
+#num8{
+    grid-area: num8;
+}
+
+#num9{
+    grid-area: num9;
+}
+
+/* fcn */
+#clr{
+    grid-area: clear;
+}
+
+#fun{
+    grid-area: mystery;
+}
+
+/* opperations */
+
+#oppPlus{
+    grid-area: addition;
+}
+
+#oppMinus{
+    grid-area: subtract;
+}
+
+#oppTimes{
+    grid-area: multiply;
+}
+
+#oppDivide{
+    grid-area: divide;
+}
+
+#eql{
+    grid-area: equal;
+}
