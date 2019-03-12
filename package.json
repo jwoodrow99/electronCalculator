@@ -1,0 +1,22 @@
+{
+  "name": "electroncalculator",
+  "version": "1.0.0",
+  "description": "Desktop calculator written with electron",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jwoodrow99/electronCalculator.git"
+  },
+  "author": "Jack Woodrow",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jwoodrow99/electronCalculator/issues"
+  },
+  "homepage": "https://github.com/jwoodrow99/electronCalculator#readme",
+  "dependencies": {
+    "electron": "^4.0.8"
+  }
+}
